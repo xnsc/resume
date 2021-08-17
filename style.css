@@ -116,6 +116,12 @@ body
   color: #b9e7a7;
 }
 
+.contactInfo ul li span
+{
+  color: #fff;
+  font-weight: 300;
+}
+
 .container .right_side
 {
 	position: relative;
