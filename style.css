@@ -1,44 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
 {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body
 {
-	background: #a4cab0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
+  background: #a4cab0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container
 {
-	position: relative;
-	width: 100%;
-	max-width: 1000px;
-	min-height: 1000px;
-	background: #fff;
-	margin: 50px;
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0,1);
 }
 
 .container .left_side
 {
-	position: relative;
-	background: #486951;
-	padding: 40px;
+  position: relative;
+  background: #486951;
+  padding: 40px;
 }
 
 .profileText
 {
-	position: relative;
-	display: flex;
+  position: relative;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
@@ -69,7 +70,7 @@ body
   color: #fff;
   font-size: 1.5em;
   margin-top: 20px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase; 
   text-align: center;
   font-weight: 600; 
   line-height: 1.4em;
@@ -122,9 +123,42 @@ body
   font-weight: 300;
 }
 
+.contactInfo.education li
+{
+  margin-bottom: 15px;
+}
+
+.contactInfo.education h5
+{
+  color: #b9e7a7;
+  font-weight: 500; 
+}
+
+.contactInfo.education h4:nth-child(2)
+{
+  color: #fff;
+  font-weight: 500;
+}
+
+.contactInfo.education h4
+{
+  color: #fff;
+  font-weight: 300;
+}
+
+.contactInfo.language .percent
+{
+  position: relative;
+  width: 100%;
+  height: 6px; 
+  background: #07260f;
+  display: block;
+  margin-top: 5px;
+}
+
 .container .right_side
 {
-	position: relative;
-	background: #628e6f;
-	padding: 40px;
+  position: relative;
+  background: #628e6f;
+  padding: 40px;
 }
