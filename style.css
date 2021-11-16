@@ -109,6 +109,12 @@ body
   cursor: pointer;
 }
 
+.contactInfo a:hover, a:visited, a:link, a:active
+{
+  color:#fff;
+  text-decoration: none !important;
+}
+
 .contactInfo ul li .icon
 {
   display: inline-block;
@@ -212,6 +218,16 @@ p
   text-transform: uppercase;
   color: #07260f;
   font-weight: 600;
+}
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
 }
 
 .about .box .text h4

@@ -2,9 +2,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nicole's Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="resume-icon.png">
   </head>
   <body>
     <div class="container">
@@ -13,7 +16,7 @@
 
         <div class="profileText">
           <div class="imgBx">
-            <img src="cat.jpg">
+            <img src="cat.jpeg">
           </div>
           <h2>Nicole Chen</h2>
         </div>
@@ -31,11 +34,11 @@
             </li>
             <li>
               <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-              <span class="text">www.github.com/nokiwi</span>
+              <a href="https://github.com/nokiwi" target="_blank"><span class="text">GitHub</span></a>
             </li>
             <li>
               <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-              <span class="text">www.linkedin.com/in/nicole-chen-pdx</span>
+              <a href="https://www.linkedin.com/in/nicole-chen-pdx/" target="_blank"><span class="text">LinkedIn</span></a>
             </li>
             <li>
               <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -61,19 +64,19 @@
             <li>
               <span class="text">English</span>
               <span class="percent">
-                <div style="width: 95%;"></div>
+                <div style="width: 100%;"></div>
               </span>
             </li>
             <li>
               <span class="text">Burmese</span>
               <span class="percent">
-                <div style="width: 45%;"></div>
+                <div style="width: 56%;"></div>
               </span>
             </li>
             <li>
               <span class="text">Mandarin</span>
               <span class="percent">
-                <div style="width: 20%;"></div>
+                <div style="width: 25%;"></div>
               </span>
             </li>
           </ul>
@@ -84,44 +87,65 @@
       <div class="right_side">
 
         <div class="about">
-          <h2 class="title2">Profile</h2>
-          <p>Insert summary here</p>
+          <h2 class="title2">About Me</h2>
+          <p>Hello! My name is Nicole. I am a junior majoring in Computer Science at PSU. I am interested in Front End 
+          and Back End Development, as well as AI. I love playing different instruments. My main instruments are violin 
+          and percussion (mainly mallet instruments). Other instruments I play for fun include ukulele, kalimba, and piano. 
+          I also enjoy scrolling through TikTok.</p>
         </div> 
 
         <div class="about">
           <h2 class="title2">Experience</h2>
 
-          <div class="box">
-            <div class="year_company">
-              <h5>June 2021 - Present</h5>
-              <h5>Novus Labs</h5>
-            </div>
-          </div>
-          <div class="text">
-            <h4>QA Test Technician Intern</h4>
-            <p>- Insert</p>
-          </div>
-
-          <div class="box">
-            <div class="year_company">
-              <h5>January 2021 - Present</h5>
-              <h5>Portland State University</h5>
-            </div>
-          </div>
           <div class="text">
             <h4>Technical Course Support Specialist</h4>
-            <p>- Insert</p>
+
+            <div class="year_company">
+              <h5 style="text-align:left;">
+                Portland State University
+                <span style="float:right;">
+                  January 2021 - Present
+                </span>
+              </h5>
+            </div>
+
+            <p>- Faciliate Intro to CS and Data Structures labs</p>
+            <p>- Assist students with debugging through gdb, valgrind, and IDEs</p>
+            <p>- Guide students through lab manual to gain a better understanding of C++</p>
           </div>
 
-          <div class="box">
+          <div class="text">
+            <h4>QA Test Technician Intern</h4>
+
             <div class="year_company">
-              <h5>March 2017 - May 2021</h5>
-              <h5>Braganza Tea</h5>
+              <h5 style="text-align:left;">
+                Novus Labs
+                <span style="float:right;">
+                  June 2021 - September 2021
+                </span>
+              </h5>
             </div>
+
+            <p>- Arrange and configure clean and congested testing environments</p>
+            <p>- Execute Wi-Fi interoperability and bluetooth test plans based on consumer requests</p>
+            <p>- Validate device functionality through analyzing bugs that arise</p>
           </div>
+
           <div class="text">
             <h4>Shift Lead</h4>
-            <p>- Desc</p>
+
+            <div class="year_company">
+              <h5 style="text-align:left;">
+                Braganza Tea
+                <span style="float:right;">
+                  March 2017 - May 2021
+                </span>
+              </h5>
+            </div>
+
+            <p>- Oversee team members through smooth store operation</p>
+            <p>- Ensure customer satisfaction by addressing questions and concerns</p>
+            <p>- Manage line movement, increasing sales 10% over daily goal</p>
           </div>
 
         </div>
@@ -130,7 +154,7 @@
           <h2 class="title2">Professional Skills</h2>
 
           <div class="box">
-            <h4>C++</h4>
+            <h4>C/C++</h4>
             <div class="percent">
               <div style="width: 96%;"></div>
             </div>
@@ -140,6 +164,13 @@
             <h4>Java</h4>
             <div class="percent">
               <div style="width: 52%;"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>Python</h4>
+            <div class="percent">
+              <div style="width: 25%;"></div>
             </div>
           </div>
 
