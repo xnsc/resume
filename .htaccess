@@ -1,4 +1,0 @@
-AuthType basic
-AuthName "Hello"
-AuthUserFile /u/nicochen/.htpasswd
-require valid-user
